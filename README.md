@@ -6,6 +6,7 @@ Encrypts at 20 clock pulses with a 128-bit message and a 128-bit key .
 Meets all time requirements at 100 MHz.
 ----------------------------------------
 I simulated 3 exampes and they are all in hex:
+
 ---------------------------------------------  --1--
 MESSAGE : 3243f6a8885a308d313198a2e0370734
 KEY : 2b7e151628aed2a6abf7158809cf4f3c
