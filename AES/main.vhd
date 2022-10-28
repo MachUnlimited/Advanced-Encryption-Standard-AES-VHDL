@@ -120,15 +120,8 @@ KEY_MODULE: key_schedule port map(
                     rcon_ct_key <= rcon_ct_key + "0001" ;
                     state <= ROUND;
                  
+                                    
                   
---                  elsif(rcon_ct_key = 10) then
---                     i_key <= after_add_rounds xor tmp_1;
---                     rcon_ct_key <= rcon_ct_key +1 ; 
---                     mix_counter <= 10 ;
---                     state <= ROUND;
-                  
-                  
-                   
                   elsif(rcon_ct_key = "1001" ) then
                      i_key <= after_add_rounds xor tmp_1;
                      rcon_ct_key <= rcon_ct_key + "0001" ; 
