@@ -1,4 +1,3 @@
- Advanced-Encryption-Standard-AES-VHDL
 Advanced Encryption Standard (AES) VHDL
 
 Encrypts at 20 clock pulses with a 128-bit message and a 128-bit key . 
